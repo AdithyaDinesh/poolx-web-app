@@ -15,6 +15,8 @@
             Pool<span class="primary--text">X</span>
           </h1>
         </v-col>
+        <v-spacer></v-spacer>
+        <SignIn />
       </v-row>
     </v-app-bar>
   </div>
@@ -25,3 +27,11 @@
   font-family: Michroma;
 }
 </style>
+<script>
+import SignIn from "./SignIn.vue";
+export default {
+  components: {
+    SignIn,
+  },
+};
+</script>
